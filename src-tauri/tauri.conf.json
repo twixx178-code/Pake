@@ -3,6 +3,12 @@
   "identifier": "com.pake.weekly",
   "version": "3.21.0",
   "app": {
+    "windows": [
+      {
+        "label": "pake",
+        "additionalBrowserArgs": "--no-proxy-server"
+      }
+    ],
     "withGlobalTauri": false,
     "trayIcon": {
       "iconPath": "png/weekly_512.png",
